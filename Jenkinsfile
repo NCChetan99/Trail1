@@ -4,7 +4,7 @@ pipeline {
 
     stage ('BUILD') {
       steps {
-        ehoo "This is Build stage" 
+        eho "This is Build stage" 
         sh ''' 
 		sleep 5
 	        exit 0 
